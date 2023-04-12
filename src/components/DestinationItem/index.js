@@ -2,8 +2,8 @@
 import './index.css'
 
 const DestinationItem = props => {
-  const {Details} = props
-  const {name, imgUrl} = Details
+  const {destinationDetails} = props
+  const {name, imgUrl} = destinationDetails
 
   return (
     <li className="destination-item">
